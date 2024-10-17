@@ -1,0 +1,140 @@
+.hero {
+  // padding-right: 40px;
+  &__start1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../assets/images/hero__bg1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__start2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../assets/images/Overlay.png"),
+      url("../../assets/images/hero__bg2.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__start3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../assets/images/Overlay.png"),
+      url("../../assets/images/hero__bg3.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__start4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../assets/images/Overlay.png"),
+      url("../../assets/images/hero__bg4.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 300;
+    padding-right: 50%;
+    text-align: left;
+    width: 60%;
+    padding-left: 100px;
+  }
+  &__text {
+    color: #fff;
+    font-family: Zona-Pro;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-right: 50%;
+    text-align: left;
+    width: 50%;
+    padding-left: 100px;
+  }
+  &__btn {
+    padding: 10px 15px;
+    background-color: #b50a3f;
+    border: 1px solid #b50a3f;
+    border-radius: 24px;
+    color: #fff;
+    font-family: Zona-Pro;
+    font-size: 16px;
+    padding: 15px 25px;
+    margin-left: 100px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .hero {
+    &__title {
+      padding-left: 0;
+      width: 80%;
+    }
+    &__text {
+      padding-left: 0;
+      width: 70%;
+    }
+    &__btn {
+      margin-left: 0;
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero {
+    &__title {
+      width: 90%;
+    }
+    &__text {
+      width: 90%;
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hero {
+    &__title {
+      font-size: 35px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero {
+    &__title {
+      font-size: 25px;
+      width: 100%;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .hero {
+    &__title {
+      font-size: 20px;
+      width: 100%;
+    }
+    &__text {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+}
