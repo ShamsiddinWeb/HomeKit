@@ -66,7 +66,7 @@ function Header(props) {
               <option value="eng">ENG</option>
             </select>
             <a
-                href="#link"
+                href="tel:998940337212"
                 className="header__btn2"
                 onClick={() => setToggle(!toogle)}
               >
